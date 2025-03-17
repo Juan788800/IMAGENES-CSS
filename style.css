@@ -7,13 +7,19 @@
   body{
     background-color: rgb(255, 255, 255);
   }
-  .img{
+.img{
     display:inline-block;
     height: 400px;
     margin: 30px 20px;
     display: inline;
   }
-
+.shadow1{
+    filter: drop-shadow(10px 10px 10px #ff6363);
+    
+}
+.shadow2{
+    filter: drop-shadow(10px 10px 10px #fffb00 );
+}
 [alt=androide17]{
     filter:drop-shadow(10px 10px 10px #0004f7) ;
 }
@@ -142,10 +148,6 @@
     filter:drop-shadow(10px 10px 10px #07d100) ;
 }[alt=Zeno_Artwork]{
     filter:drop-shadow(10px 10px 10px #650f0f) ;
-}[alt=14Dokkan]{
-    filter:drop-shadow(10px 10px 10px #4b5551) ;
-}[alt=15Dokkan]{
-    filter:drop-shadow(10px 10px 10px #0012d3) ;
 }
 
 
