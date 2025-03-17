@@ -1,0 +1,12 @@
+h1 {
+    color: violet;
+}
+#titulo{
+    color: aqua;
+}
+.destacado{
+    color: chartreuse;
+}
+h1{
+    color: cyan !important;
+}
