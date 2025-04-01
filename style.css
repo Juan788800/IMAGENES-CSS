@@ -2,8 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-
 }
 .carta {
     width: 100%;
@@ -46,8 +44,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-
 }
+
 
 h1{
     margin:20px 0;

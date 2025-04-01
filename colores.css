@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+body{
+    background-color: blueviolet;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.saludo{
+    width:100px ;
+    height:500px ;
+}
+.saludo h2{
+    font-size:2.5rem ;
+    text-align:center ;
+    padding-top: 60xp;
+
+}
+.box{
+    color:black ;
+    color: rgb(192, 12, 12);
+    color: rgba(255, 255, 255, 0.959);
+    background-color: aqua;
+    width: 100%;
+    height: 650px;
+    background-image: url(image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 180px;
+    padding-bottom: 180px;
+    font-size: 25px;
+    border-top: 6px #000 solid;
+    border-bottom: 1px  #000 solid;
+}
+
+.box h1{
+    padding-top: 180px;
+    padding-bottom: 150px;
+    font-size: 2.5rem;
+}
+
+.box p{
+    font-size: 2rem;
+}
+.card{
+    background-color: white ;
+    width: 350px;
+    min-height: 450px;
+    display: inline-block;
+    margin: 0 10px;
+    border-radius: 10px;
+    border: solid #c2c2c2;
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+}

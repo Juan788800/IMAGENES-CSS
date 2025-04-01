@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+
+}
+
+
+
+h1{
+    color:blueviolet
+}
+p{
+    color: aqua;
+}
+
+/*a[target="_blank"]{
+    color: chocolate;
+    font-weight: bold;
+}*/
+/*a{
+    color: darkmagenta;
+    background-color: chartreuse;
+    margin-left: 10px;
+    text-decoration: none;
+}*/
+.titulo{
+    font-size: 20px;
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    color: blue;
+    background-color: aqua;
+}
+
+.texto{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    font-size: 20px;
+}
+/*selector descendiente*/
+
+div p{
+    color: crimson;
+}
+/*hijo directo*/
+div > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+/*hermanos adyacente*/
+
+div + p{
+    color: yellow;
+}
+/*hermanos generales*/
+div ~p{
+    background-color: black;
+}
+/*seudocaclses*/
+li:first-child{
+    color: darkorchid;
+}
+a:hover {
+    text-decoration: none;
+    color: pink;
+    background-color: peru;
+}
+.block{
+    background-color: black;
+}
+.block :hover{
+    background-color: brown;
+}
